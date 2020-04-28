@@ -10,7 +10,7 @@ GPATool
 * 数据提取与保存
    * 首先接受输入，使用split("\n")将其按行分割；
    * 然后使用split()按照空格分割，并将其存储到字典的列表courseList中，每个字典有三个键值对，分别对应课程名、学分和绩点。
-* 功能实现
+* 功能实现<br>
     编写三个功能函数和一个辅助函数实现：
    * 判断浮点数:isfloat(aString)
    * 计算GPA：calGPA(courseList)

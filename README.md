@@ -31,5 +31,9 @@ GPATool
    * 包含属性cno,cname,teacher,credit,capacity，以及用来记录预选学生、正选学生和队列学生的三个列表preselectionStudents、selectionStudents和waitingStudents
    * 抽签函数draw_lots()，当抽签时使用random.shuffle(list)将预选学生列表随机打乱，然后将capacity内的学生放入正选列表，预选课信息删除，加入正选课，capacity之外的学生放入队列列表，预选课信息删除，加入队列课信息。最后将预选学生列表清空。
 
-
+### Main.py:
+* 实例化数据库课程
+* 从学生列表.txt中读取学生信息并创建students[]列表用来存放学生对象，每个学生均预选数据库课程
+* 抽签
+* 输出结果
 
